@@ -1,8 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
 textarea {
     position: absolute;
-    top: 130px;
-    right: 30px;
+    top: 120%;
+    left: 35%;
     width: 400px;
+    height: 200px;
     border-radius: 0;
     border: 0.5pt solid black;
 }

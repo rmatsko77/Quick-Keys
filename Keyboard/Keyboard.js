@@ -16,11 +16,11 @@ const Keyboard = {
     },
 
     init() {
-        //Creates main elements
+        //Creates elements
         this.elements.main = document.createElement('div');
         this.elements.keysContainer = document.createElement('div');
 
-        //Setup main elements
+        //Setup elements
         this.elements.main.classList.add('keyboard', 'keyboard--hidden');
         this.elements.keysContainer.classList.add('keyboard__keys');
         this.elements.keysContainer.appendChild(this._createKeys());
